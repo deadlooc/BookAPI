@@ -53,7 +53,7 @@
 
          /**
           * Метод возвращающий количество книг в наличии
-          * @return $this->count
+          * @return integer
           */
          public function getCount() {
                  return $this->count;
@@ -61,7 +61,7 @@
 
          /**
           * Метод возвращающий название книги
-          * @return $this->title
+          * @return string
           */
          public function getTitle() {
                  return $this->title;
@@ -69,7 +69,7 @@
 
          /**
           * Метод возвращающий количество томов книги
-          * @return $this->tomes
+          * @return integer
           */
          public function getTomes() {
                  return $this->tomes;
@@ -77,7 +77,7 @@
 
          /**
           * Метод возвращающий авторов книги
-          * @return $this->authors
+          * @return Author[]
           */
          function getAuthors() {
                  return $this->authors;
